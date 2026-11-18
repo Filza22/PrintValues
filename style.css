@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./background-wave-minimalist-modern-style_483537-5220.avif);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    /* font-size: larger; */
+    font-size: 25px;
+    color: rgb(157, 163, 168);
+    text-decoration: underline;
+}
+.printValues {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(26, 39, 46, 0.336);
+    border-radius: 10px;
+    padding: 50px;
+    border: 2px solid rgba(9, 1, 44, 0.507);
+}
+
+
+.printValues label {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 254, 254, 0.63);
+}
+
+.printValues button {
+    height: 45px;
+    font-size: larger;
+    width: 370px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgba(4, 122, 143, 0.349);
+    color: rgb(212, 236, 247);
+}
+
+
+#firstName,
+#email,
+#address {
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#output {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(194, 196, 199);
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightblue;
+        height: 100VH;
+    }
+
+    .printValues button {
+
+        width: 270px;
+
+    }
+
+    .printValues {
+
+        padding: 20px 10px;
+        /* margin: auto 5px; */
+        margin-left: 15px;
+        margin-right: 15px
+    }
+
+    #firstName,
+    #email,
+    #address {
+        margin-bottom: 30px;
+        padding-left: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: large;
+        font-weight: 500;
+        border-radius: 7px;
+        border: 1px solid black;
+
+    }
+
+}
